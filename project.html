@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MS Restaurant</title>
+    <link rel="stylesheet" href="./projecct.css">
+</head>
+<body>
+    <header>
+        <div class="container1">
+            <h1>MS Restaurant</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Our Menus</a></li>
+                    <li><a href="#book">Table Bokking</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="order">
+        <div class="container">
+            <h2>Asian Restaurant</h2>
+            <p>Here you can find delicious foods.</p>
+            <a href="./items.html" class="btn">Order Right Now</a>
+        </div>
+    </section>
+    <section class="meals">
+        <div class="container">
+            <div class="meal-options">
+                <div class="meal-item" id="menu">
+                    <a href="./breakfast.html">
+                    <img src="breakfast.jpg" alt="Breakfast">
+                    </a>
+                    <h3>Breakfast</h3>
+                </div>
+                <div class="meal-item">
+                    <a href="./lunch.html">
+                    <img src="lunch.jpg" alt="Lunch">
+                    </a>
+                    <h3>Lunch</h3>
+                </div>
+                <div class="meal-item">
+                    <a href="./dinner.html">
+                    <img src="dinner.jpg" alt="Dinner">
+                    </a>
+                    <h3>Dinner</h3>
+                </div>
+                <div class="meal-item">
+                    <a href="./dessert.html">
+                    <img src="desert.jpg" alt="Desserts">
+                    </a>
+                    <h3>Desserts</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reservation">
+        <div class="container">
+            <h2 id="book">Book Your Table Now</h2>
+            <form action="./booking.html">
+                <label for="day">Select Day</label>
+                <input type="date" id="day" name="day" required>
+                <label for="hour">Select Hour</label>
+                <input type="time" id="hour" name="hour" required>
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="people">How many persons?</label>
+                <input type="number" id="people" name="people" required>
+               <button type="submit" id="table">Book Table</button>
+                </a></button>
+            </form>
+        </div>
+    </section>
+    <section class="featured-food">
+        <div class="container">
+            <h2>Weekly Featured Food</h2>
+            <div class="food-items">
+                <div class="food-item">
+                    <img src="./kalechips.jpg" alt="Kale Chips">
+                    <h3>Kale Chips Art Party</h3>
+                    <p>$4.50</p>
+                </div>
+                <div class="food-item">
+                    <img src="./lunch1.jpg" alt="Lunch">
+                    <h3>Takoyaki Gastro Tossed</h3>
+                    <p>$7.50</p>
+                </div>
+                <div class="food-item">
+                    <img src="./dinner.jpg" alt="Dinner">
+                    <h3>Batch Squid Jean Shorts</h3>
+                    <p>$12.50</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="blog">
+        <div class="container">
+            <h2>Our Chefs</h2>
+            <div class="blog-posts">
+                <div class="post">
+                    <h4>Ranveer Brar</h4>
+                    <p>Master chef</p>
+                    <a href="#">Continue Reading</a>
+                </div>
+                <div class="post">
+                    <h4>Vikas Khanna</h4>
+                    <p>chef</p>
+                    <a href="#">Continue Reading</a>
+                </div>
+                <div class="post">
+                    <h4>Ritu Dalmia</h4>
+                    <p>chef</p>
+                    <a href="#">Continue Reading</a>
+                </div>
+                <div class="post">
+                    <h4>Atul Kochhar</h4>
+                    <p>chef</p>
+                    <a href="#">Continue Reading</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <form action="#" id="contact">
+                <label for="email">Signup for our Newsletters</label>
+                <input type="email" id="email" name="email">
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="contact">
+                Email:msrestaurent gmail.com
+            
+            </div>
+            OR
+            <div class="mail">
+            contact us:+144423323 
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

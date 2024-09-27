@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container1 {
+    width: 100%;
+    margin: 0 auto;
+text-align: center;
+background-color: rgb(248, 45, 9);
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #62ea19ef;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #f2ebecdc;
+}
+
+
+.order {
+    background: url('./res1-transformed.jpeg') no-repeat center/cover;
+    color: rgb(218, 241, 229);
+    padding: 100px 0;
+    text-align: center;
+    transform: scale(100px);
+}
+.order h2 {
+    font-size: 48px;
+}
+
+.order p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.order .btn {
+    padding: 10px 30px;
+    background-color: #ff4500;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.meals {
+    text-align: center;
+    padding: 50px 0;
+}
+
+@media (max-width: 1200px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
+.meals .meal-options {
+    display: flex;
+    justify-content: space-around;
+}
+
+.meals .meal-item {
+    text-align: center;
+}
+
+.meals .meal-item img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.reservation {
+    background-image: url('./res1-transformed.jpeg');
+    padding: 50px 0;
+    text-align: center;
+    color: #ff3300;
+}
+
+.reservation form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reservation form input,
+.reservation form button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 300px;
+}
+
+#table:hover {
+     color: rgb(4, 4, 4);
+     background-color: rgb(193, 238, 11);
+}
+
+.featured-food {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.featured-food .food-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.featured-food .food-item img {
+    width: 150px;
+    height: 150px;
+}
+
+.blog {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.blog .blog-posts {
+    display: flex;
+    justify-content: space-around;
+}
+
+.blog .post {
+    width: 20%;
+}
+
+.blog .post a {
+    text-decoration: none;
+    color: #ff4500;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer form {
+    margin-bottom: 20px;
+}
+
+footer input {
+    padding: 10px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+footer button {
+    padding: 10px 20px;
+    background-color: #ff4500;
+    color: white;
+    border: none;
+}
+
+footer p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.contact{
+    margin-bottom: 5px;
+}
+
+.mail {
+    margin-top: 5px;
+}
